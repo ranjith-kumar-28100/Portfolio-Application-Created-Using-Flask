@@ -11,21 +11,9 @@ checkheader=0
 def submit_form():
     if request.method == "POST":
         form = request.form.to_dict()
-        print(form)
-        f= open('database.txt','a')
-        f.write("\n"+form["email"]+","+form["subject"]+","+form["msg"])
-        f.close()
         write_to_csv(form)
-        return redirect(url_for('submit',messages=form["email"]))
+        return render_template("submit.html")
 
-@app.route("/submit")
-def submit():
-    email= request.args['messages']
-    f=open('database.txt','r')
-    messages= f.readlines()[-1]
-    print(messages+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-    f.close()
-    return render_template("submit.html",email=email,messages=messages)
 
 @app.route("/<string:page_name>")
 def html_page(page_name):
