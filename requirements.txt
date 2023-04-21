@@ -322,7 +322,7 @@ sphinxcontrib-serializinghtml @ file:///tmp/build/80754af9/sphinxcontrib-seriali
 spyder @ file:///C:/Windows/TEMP/abs_66k5aq_mkw/croots/recipe/spyder_1659599805372/work
 spyder-kernels @ file:///C:/ci/spyder-kernels_1647011408404/work
 SQLAlchemy @ file:///C:/Windows/Temp/abs_f8661157-660b-49bb-a790-69ab9f3b8f7c8a8s2psb/croots/recipe/sqlalchemy_1657867864564/work
-sqlparse==0.4.3
+sqlparse==0.4.4
 srsly==2.4.5
 statsmodels==0.13.2
 streamlit==1.13.0
