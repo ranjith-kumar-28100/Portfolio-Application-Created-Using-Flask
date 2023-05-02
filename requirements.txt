@@ -85,7 +85,7 @@ et-xmlfile==1.1.0
 fastjsonschema @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_ebruxzvd08/croots/recipe/python-fastjsonschema_1661376484940/work
 filelock @ file:///opt/conda/conda-bld/filelock_1647002191454/work
 flake8 @ file:///opt/conda/conda-bld/flake8_1648129545443/work
-Flask==2.2.2
+Flask==2.3.2
 Flask-Authorize==0.2.6
 Flask-BabelEx==0.9.4
 Flask-Login==0.6.2
